@@ -3,7 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const Weather = () => {
-  const apiKey = "85090c1a3c92d1bfefd1507d7e3f4614";
+  const apiKey = "enter your api key";
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
 
